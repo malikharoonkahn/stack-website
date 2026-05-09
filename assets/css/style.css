@@ -111,8 +111,11 @@ a {
 }
 
 .brand img {
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid rgba(252, 221, 9, 0.25);
 }
 
 .menu {
@@ -188,6 +191,56 @@ a {
 
 .hero-card {
   padding: 1.2rem;
+}
+
+/* Featured graphic: user branding on bright background, framed for dark UI */
+.hero-featured {
+  padding: 1rem 1rem 1.2rem;
+  text-align: center;
+}
+
+.featured-heading {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.65rem;
+  font-weight: 600;
+}
+
+.featured-graphic {
+  margin: 0 auto;
+  max-width: min(380px, 100%);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(252, 221, 9, 0.35);
+  box-shadow:
+    0 0 0 1px rgba(209, 24, 30, 0.2),
+    0 12px 40px rgba(0, 0, 0, 0.35);
+  background: linear-gradient(145deg, rgba(252, 221, 9, 0.12), rgba(209, 24, 30, 0.08));
+}
+
+.featured-graphic img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* Download page: centered featured strip */
+.featured-banner {
+  margin: 1.25rem auto 0;
+  max-width: min(360px, 92%);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(252, 221, 9, 0.3);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.35);
+}
+
+.featured-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .card {

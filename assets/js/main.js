@@ -16,7 +16,7 @@ if (navbarContainer) {
     <header class="topbar">
       <div class="container nav">
         <a class="brand" href="index.html" aria-label="Royal Dream APK home">
-          <img src="assets/images/logo.svg" alt="Royal Dream APK logo" />
+          <img src="assets/images/royal-dream-featured.png" alt="Royal Dream APK logo" />
           <span>Royal Dream APK</span>
         </a>
         <button class="menu-toggle" type="button" aria-label="Toggle menu">Menu</button>
