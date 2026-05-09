@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="bg2" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#13162b" />
+      <stop offset="100%" stop-color="#2f1850" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg2)" />
+  <rect x="35" y="30" width="570" height="300" rx="15" fill="#0f1224" stroke="#9d4edd" stroke-opacity=".55" />
+  <rect x="62" y="58" width="220" height="24" rx="7" fill="#9d4edd" fill-opacity=".5" />
+  <rect x="62" y="96" width="516" height="18" rx="6" fill="#9ea7c4" fill-opacity=".28" />
+  <rect x="62" y="136" width="160" height="160" rx="10" fill="#171b30" />
+  <rect x="242" y="136" width="160" height="160" rx="10" fill="#171b30" />
+  <rect x="422" y="136" width="156" height="160" rx="10" fill="#171b30" />
+  <text x="62" y="327" fill="#d7ddff" font-family="Arial" font-size="20">Royal Dream APK Preview 2</text>
+</svg>
